@@ -19,6 +19,21 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
+
+    <!--LINK FONT-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+    <!--LINK CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="<?php echo get_template_directory_uri() ?>/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet"
+          href="<?php echo get_template_directory_uri() ?>/font-awesome-4.6.3/css/font-awesome.min.css">
+    <!--LINK JS JQUERY, BOOTSTRAP AND JS PAGE-->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.4.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
